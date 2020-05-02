@@ -1,0 +1,63 @@
+body {
+  background:url('bodybg.jpg');
+  text-align: center;
+  background-size: cover;
+}
+
+.card{
+  width:400px;
+  height: 600px;
+  margin: auto;
+  background: lightyellow;
+  padding: 12px;
+}
+
+#salutation {
+  font-family: 'Abril Fatface', cursive;
+  font-weight: normal;
+}
+
+#messageText {
+  font-family: 'Satisfy', cursive;
+  color: blue;
+  font-weight: 100;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.cardImage{
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#birthday {
+  background-image: url('happybirthday.jpg');
+}
+
+#christmas {
+  background-image: url('christmas.jpg');
+}
+
+#halloween {
+  background-image: url('halloween.jpg');
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  text-align: right;  
+  font-size: 12px;
+}
+
+input,
+textarea {
+  margin: 5px;
+  padding: 10px;
+  width: 280px;
+}
+
+form {
+  width: 300px;
+  margin-top: 50px;
+}
